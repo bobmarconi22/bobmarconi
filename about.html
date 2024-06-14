@@ -30,7 +30,7 @@
 											<li><a href="about.html">About</a></li>
 											<li><a href="index.html#one">Projects</a></li>
 											<li><a href="index.html#three">Languages</a></li>
-											<li><a href="#footer">Contact</a></li>
+											<li><a href="index.html#cta">Contact</a></li>
 										</ul>
 									</div>
 								</li>
@@ -61,14 +61,29 @@
 
 							</div>
 						</section>
+
+						<div id="myModal" class="modal">
+							<div class="modal-content">
+							  <span class="close">&times;</span>
+							  <form id="emailForm">
+								<label for="to">To:</label>
+								<input type="email" id="to" name="to" value="bobmarconi22@gmail.com" readonly><br><br>
+								<label for="subject">Subject:</label>
+								<input type="text" id="subject" name="subject"><br><br>
+								<label for="message">Message:</label>
+								<textarea id="message" name="message"></textarea><br><br>
+								<button type="submit">Send Email</button>
+							  </form>
+							</div>
+						  </div>
+
 					</article>
 
 				<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
 						<li>
-						  <a href="https://github.com/bobmarconi22"
-						  target="_blank"
+						  <a href=""
 						  class="icon brands fa-github"
 							><span class="label">Github</span></a
 						  >
@@ -96,13 +111,6 @@
 						  ><span class="label">Instagram</span></a
 						>
 					  </li>
-					  <li>
-						<a href="mailto:bobmarconi22@gmail.com"
-						target="_blank"
-						class="icon solid fa-envelope"
-						  ><span class="label">Email</span></a
-						>
-					  </li>
 					</ul>
 					<ul class="copyright">
 					  <li>&copy; Bob Marconi</li>
@@ -120,6 +128,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/email.js"></script>
 
 	</body>
 </html>
