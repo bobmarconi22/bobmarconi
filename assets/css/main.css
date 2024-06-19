@@ -4159,6 +4159,12 @@ body.is-mobile.landing #footer {
 	cursor: pointer;
   }
 
+  #about-pic{
+    height: 250px;
+    border-radius: 100%;
+    margin: 0 auto;
+  }
+
 ::-webkit-scrollbar {
   width: 2.5px;
 }
